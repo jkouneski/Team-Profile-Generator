@@ -12,7 +12,7 @@ test ("getOfficeNumber() should return 123", () => {
     expect(e.getOfficeNumber()).toBe(officeNumber);
 });
 
-test ("getRole should return Manager", () => {
+test ("getRole() should return Manager", () => {
     const role = "Manager";
     const e = new Manager(role);
     expect(e.getRole()).toEqual(role);
