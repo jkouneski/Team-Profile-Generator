@@ -1,0 +1,21 @@
+header {
+    background-color: firebrick;
+    color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.col-md-6 {
+    padding: 25px;
+}
+
+.card-header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.card {
+    box-shadow: 10px 5px 5px gainsboro;
+}
+
+
