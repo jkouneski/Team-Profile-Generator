@@ -11,6 +11,7 @@ Simple command line application that will allow a manger to build a webpage to k
 4. Enter "node index" to start the app.
 
 ## Usage
+https://drive.google.com/file/d/1jg5F_xCbiNLJ7q89j2u0aIzAPMhwFGqF/view
 
 ## Tests
 1. Open your terminal and change directory to "Team-Profile-Generator".
