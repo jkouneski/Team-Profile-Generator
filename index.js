@@ -46,7 +46,6 @@ init = () => {
             
         ]).then(({name, id, email, officeNumber}) => {
             const manager = new Manager(name, id, email, officeNumber);
-            console.log(manager);
             employees.push(manager);
             addNewRole();
         })
@@ -82,7 +81,6 @@ init = () => {
             }
         ]).then(({name, id, email, gitHub}) => {
             const engineer = new Engineer(name, id, email, gitHub);
-            console.log(engineer);
             employees.push(engineer);
             addNewRole();
         });
@@ -117,7 +115,6 @@ init = () => {
             }
         ]).then(({name, id, email, school}) => {
             const intern = new Intern(name, id, email, school);
-            console.log(intern);
             employees.push(intern);
             addNewRole();
         });
